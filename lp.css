@@ -1,0 +1,113 @@
+body{
+	padding:0;
+	margin:0;
+	background:url(moon1.jpg)50% 50% !important;
+	background-size: cover;
+	background-position: center;
+}
+.menu{
+	padding-top:30px;
+	position: relative;
+}
+.container .menu ul{
+	position: relative;
+	
+	display:flex;
+	padding:0;
+	margin:0;
+	justify-content: center;
+	align-items: center;
+
+	
+}
+.container .menu ul li{
+		list-style: none;
+		width: 20%;
+		text-align: center;
+	
+}
+
+.container .menu ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-family: 'Russo One', sans-serif;
+	position: relative;
+	transition: .3s;
+}
+.container .menu ul li a:hover{
+	color:pink;
+}
+.brand h1 a{
+	color:#fff;
+	text-decoration: none;
+	transition: .3s;
+
+	font-family: 'Orbitron', sans-serif;
+
+}
+.brand h1:hover a{
+	color:pink;
+}
+.container .menu .logo{
+	/*padding:0;
+	margin:0;*/
+	font-size:36px;
+}
+.container .menu .fa{
+	/*margin-left:10px;*/
+	color:pink;
+
+}
+.logo span{
+	font-size:26px;
+
+}
+.details{
+	color:#fff;
+	
+}
+.details h3{
+	padding:50px;
+	font-weight: lighter;font-family: 'Play', sans-serif;
+
+
+}
+.details p{
+	line-height: 40px;
+	font-size:22px;font-family: 'Play', sans-serif;
+
+}
+.upto{
+color:#fff;
+position: relative;
+margin-top:100px;
+margin-bottom:100px;
+
+}
+.upto h3{
+	font-weight: lighter;
+	font-family: 'Play', sans-serif;
+
+
+}
+.row .imgbx img{
+	border-radius: 50%;
+	width:250px;
+	height:250px;
+}
+.row{
+	color:#fff;
+	padding-bottom: 50px;
+}
+.row .project{
+	padding:20px ;
+	text-align: justify;
+}
+.row .project p{
+	font-family: 'Play', sans-serif;
+
+}
+.row .project h4{
+	font-family: 'Play', sans-serif;
+
+}
